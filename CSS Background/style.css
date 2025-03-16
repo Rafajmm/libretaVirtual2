@@ -1,0 +1,36 @@
+html{border: 1px solid;}
+body
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    
+    
+    background-image:url("logo-ies-pedro-jimenez-montoya-291747174.jpg");
+    background-repeat: repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+h1
+{ 
+    border: black 3px solid;
+    font-size:60px;
+    color:red;
+    text-align: center;
+    margin:10px;
+    background-color:green;
+}
+h2
+{
+    border:black 3px solid;
+    text-align: center;
+    margin: 10px;
+    background-color: red;
+}
+p
+{
+    border:black 3px solid;
+    margin: 10px;
+    background-color: yellow;
+}
+

@@ -1,0 +1,91 @@
+.dropdownmenu ul, .dropdownmenu li
+{
+    margin:0px;
+    padding:0px;
+}
+.dropdownmenu ul
+{
+    background: rgb(0, 0, 0);
+    list-style: none;
+    width:100%;
+}
+.dropdownmenu li
+{
+    float:left;
+    position:relative;
+    width:auto;
+}
+.dropdownmenu a
+{
+    background: #30A6E6;
+    color: white;
+    display:block;
+    font:bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align:center;
+    text-decoration: none;
+
+}
+.dropdownmenu li:hover a
+{
+    background: black;
+
+}
+#submenu
+{
+    left: 0;
+    opacity: 0;
+    position:absolute;
+    top:35px;
+    z-index:1;
+}
+#submenu li
+{
+    width:100%;
+}
+li:hover ul#submenu
+{
+    opacity:1;
+    top:40px;
+    visibility:visible;
+}
+#submenu a:hover
+{
+    background:orange;
+}
+#submenu a
+{
+    background-color:black;
+}
+nav
+{
+    width:100%;
+}
+#subsubmenu
+{
+    left: 0;
+    opacity: 0;
+    position:absolute;
+    top:65px;
+    z-index:1; 
+    visibility:hidden;  
+}
+#subsubmenu a
+{
+    background-color:black;  
+}
+#subsubmenu a:hover
+{
+    background:orange;
+}
+#subsubmenu li
+{
+    width:100%;
+}
+#submenu li:hover ul#subsubmenu
+{
+    opacity:1;
+    top:0px;
+    left:124px;
+    visibility:visible;
+}
