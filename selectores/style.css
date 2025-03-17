@@ -1,28 +1,84 @@
-/*Selector Universal*/
-*{ margin: 0px;}
-/* Sector de tipo*/
-p , div {font-family:Verdana; color: red}
-/* Sector Descendente*/
-p a {font-size: 50px;}
-div * p {font-size:50} /*excluir de la selección a los hijos.*/
-/* Sector Hijo*/
-div > p {font-size:50px; color: blue;}
-/*Selector Adyacente*/
-li:first-of-type +li{ color: orange;}
-/*Selector de clase, .nombre_clase*/
-.clase {color:aqua;}
-/*Selector de id*/
-#id{color:brown;}
-
-/*Pseudoclases*/
-a:link{color:black;}  /*  Enlaces sin visitar negro.*/
-a:visited{color:blue;}/* Visitados azul*/
-a:hover{color:green;} /* Con el ratón encima verde.*/
-a:active{color:red;}  /* Presionando el botón rojo.*/
-a:focus{background-color: yellow;}/*Con el fondo amarillo.*/
-/*Pseudoelementos*/
-h1:before{content:"Encabezado ---"}
-h1:after{content: "--- Fin del encabezado"}
-p.pseudo:first-line{font-size:20px}
-p.pseudo:first-letter{font-size:3em;}
-#ver:first-letter{font-size:3em;color: blue;}
+/* Selector Universal */
+* {
+    margin: 0px;
+  }
+  
+  /* Selector de tipo */
+  p, div {
+    font-family: Verdana;
+    color: #1B2631;
+  }
+  
+  /* Selector Descendente */
+  p a {
+    font-size: 50px;
+  }
+  
+  div * p {
+    font-size: 50px;
+  }
+  
+  /* Selector Hijo */
+  div > p {
+    font-size: 50px;
+    color: #2E86C1;
+  }
+  
+  /* Selector Adyacente */
+  li:first-of-type + li {
+    color: #F39C12;
+  }
+  
+  /* Selector de clase */
+  .clase {
+    color: #E74C3C;
+  }
+  
+  /* Selector de ID */
+  #id {
+    color: #9B59B6;
+  }
+  
+  /* Pseudoclases */
+  a:link {
+    color: #2471A3;
+  }
+  
+  a:visited {
+    color: #8E44AD;
+  }
+  
+  a:hover {
+    color: #D35400;
+  }
+  
+  a:active {
+    color: #C0392B;
+  }
+  
+  a:focus {
+    background-color: #F4D03F;
+  }
+  
+  /* Pseudoelementos */
+  h1:before {
+    content: "Encabezado --- ";
+  }
+  
+  h1:after {
+    content: " --- Fin del encabezado";
+  }
+  
+  p.pseudo:first-line {
+    font-size: 20px;
+  }
+  
+  p.pseudo:first-letter {
+    font-size: 3em;
+  }
+  
+  #ver:first-letter {
+    font-size: 3em;
+    color: #1F618D;
+  }
+  

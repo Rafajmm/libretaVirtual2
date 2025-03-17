@@ -17,7 +17,7 @@
 }
 .dropdownmenu a
 {
-    background: #30A6E6;
+    background: #6f00ff;
     color: white;
     display:block;
     font:bold 12px/20px sans-serif;
@@ -76,7 +76,7 @@ nav
 }
 #subsubmenu a:hover
 {
-    background:orange;
+    background:rgb(255, 0, 106);
 }
 #subsubmenu li
 {
